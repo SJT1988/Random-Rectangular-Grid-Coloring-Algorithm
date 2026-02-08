@@ -5,7 +5,7 @@ Suppose you have an M x N rectangular grid and X colors.
 
   - If X < 4, the tiles of the grid will be colored randomly.
   - If X = 4, the tiles of the grid will be colored randomly such that no same-colored tiles share an edge.
-  - If X = 5, the tiles of the grid will be colored randomly such that no same-colored tiles share a corner.
+  - If X >= 4, the tiles of the grid will be colored randomly such that no same-colored tiles share a corner.
 
 What the program actually does is print a rectangular array of the first X characters randomly selected from the alphabet such that the above conditions are met. Examples below:
 
